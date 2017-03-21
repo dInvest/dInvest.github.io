@@ -7,6 +7,9 @@ footer {
   padding-top: 5rem;
   color: #777
 }
+.input {
+  color: #222
+}
 .banner {
   background-image: url('../../images/header-bg.jpg');
   height:100vh;
