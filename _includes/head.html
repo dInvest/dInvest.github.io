@@ -17,16 +17,13 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="{{ "assets/css/normalize.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "assets/css/skeleton.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "assets/css/custom.css" | prepend: site.baseurl }}">
-
-  <!-- Not sure what this does yet --->
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/skeleton.css">
+  <link rel="stylesheet" href="{{ site.url }}/assets/css/custom.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="{{ "/images/favicon.png" | prepend: site.baseurl }}">
+  <!-- <link rel="icon" type="image/png" href="{{ "/images/favicon.png" | prepend: site.baseurl }}">
+  -->
 
 </head>
